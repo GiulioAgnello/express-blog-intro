@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-express.static("public");
+app.use(express.static("public"));
 
 app.get("/", (req, res) => {
   console.log(`Server del mio blog`);
