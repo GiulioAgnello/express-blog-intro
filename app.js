@@ -13,31 +13,31 @@ app.get("/bacheca", (req, res) => {
     {
       titolo: "Ciambellone",
       contenuto: "ciambellone cioccolato",
-      immagine: "/ciambellone.jpeg",
+      immagine: "/img/ciambellone.jpeg",
       tags: ["tag1", "tag2", "tag3"],
     },
     {
       titolo: "craker",
       contenuto: "cracker barbabietola",
-      immagine: "/craker_barbabietola.jpeg",
+      immagine: "/img/cracker_barbabietola.jpeg",
       tags: ["tag1", "tag2", "tag3"],
     },
     {
       titolo: "pane fritto",
       contenuto: "pane fritto dolce",
-      immagine: "/pane_fritto_dolce.jpeg",
+      immagine: "/img/pane_fritto_dolce.jpeg",
       tags: ["tag1", "tag2", "tag3"],
     },
     {
       titolo: "pasta",
       contenuto: "pasta con barbabietola",
-      immagine: "/pasta_barbabietola.jpeg",
+      immagine: "/img/pasta_barbabietola.jpeg",
       tags: ["tag1", "tag2", "tag3"],
     },
     {
       titolo: "torta",
       contenuto: "torta paesana",
-      immagine: "/torta_paesana.jpeg",
+      immagine: "/img/torta_paesana.jpeg",
       tags: ["tag1", "tag2", "tag3"],
     },
   ]);
